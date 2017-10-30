@@ -12,7 +12,7 @@ console.log(motleyCrue);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	if(theBand.length > 5){
+	if(motleyCrue.length > 5){
 		var long = true;
 	}else{
 		var long = false;

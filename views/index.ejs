@@ -3,6 +3,8 @@
 <head>
 	<title></title>
 
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 
@@ -10,6 +12,7 @@
 		
 		$(document).ready(function(){
 			$('#myTable').DataTable();
+			console.log("Test")
 		});
 	</script>
 
@@ -18,11 +21,18 @@
 
 	<h1>Motley Crue Members</h1>
 	<table id="myTable">
+		<thead>
+			<tr>
+				<th>Band Member Name</th>
+			</tr>
+		</thead>
+		<tbody>
 	<% theBand.map((member)=>{ %>
 		<tr>
-			<td><%=member%><a href="/remove/<%=member%>">Remove from band</a></td>>
+			<td><%=member%><a href="/remove/<%=member%>">Remove from band</a></td>
 		</tr>
 	<% }) %>
+		</tbody>
 	</table>
 
 	<h2>What is your name?</h2>å
