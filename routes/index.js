@@ -5,7 +5,22 @@ var motleyCrue = [
 	'Tommy Lee',
 	'Mick Marks',
 	'Vince Neil',
-	'Nikki Sixx'
+	'Nikki Sixx',
+	'Tommy Lee',
+	'Mick Marks',
+	'Vince Neil',	
+	'Tommy Lee',
+	'Mick Marks',
+	'Vince Neil',
+	'Tommy Lee',
+	'Mick Marks',
+	'Vince Neil',
+	'Tommy Lee',
+	'Mick Marks',
+	'Vince Neil',
+	'Tommy Lee',
+	'Mick Marks',
+	'Vince Neil',
 ];
 
 console.log(motleyCrue);
